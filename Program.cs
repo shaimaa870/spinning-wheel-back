@@ -13,6 +13,7 @@ builder.Services.AddDbContext<AppDbContext>(x =>
     x.UseSqlServer(connectionString);
 });
 builder.Services.AddScoped<ISpinningWheellRepo, SpinningWheelRepo>();
+builder.Services.AddScoped<IImage, ImageService>();
 builder.Services.AddCors();
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
 {

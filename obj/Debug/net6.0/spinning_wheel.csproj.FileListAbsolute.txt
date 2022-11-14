@@ -86,3 +86,13 @@ C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\Microsoft
 C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\spinning_wheel.staticwebassets.runtime.json
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\a\source\repos\spinning_wheel\spinning_wheel\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll

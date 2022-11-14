@@ -13,6 +13,7 @@
         public string Reward { get; set; }
         public string Color { get; set; }
         public string TextColor { get; set; }
+        public string? Image { get; set; }
         public string? SpinningWheelId { get; set; }
     }
 }
