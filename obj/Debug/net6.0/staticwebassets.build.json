@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "F4OJczWLPgdi1KoNGMbj1abbKR65bTQmEqTPQrPHHcg=",
+  "Hash": "BCExSt7qng7LhnPsRlsBq64u2ph0SD0+qwQiWXQ3PEw=",
   "Source": "spinning_wheel",
   "BasePath": "_content/spinning_wheel",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "spinning_wheel\\wwwroot",
+      "Source": "spinning_wheel",
+      "ContentRoot": "C:\\Users\\a\\source\\repos\\spinning_wheel\\spinning_wheel\\wwwroot\\",
+      "BasePath": "_content/spinning_wheel",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\a\\source\\repos\\spinning_wheel\\spinning_wheel\\wwwroot\\image\\seg1",
+      "SourceId": "spinning_wheel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\source\\repos\\spinning_wheel\\spinning_wheel\\wwwroot\\",
+      "BasePath": "_content/spinning_wheel",
+      "RelativePath": "image/seg1",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\seg1"
+    },
+    {
+      "Identity": "C:\\Users\\a\\source\\repos\\spinning_wheel\\spinning_wheel\\wwwroot\\image\\seg2",
+      "SourceId": "spinning_wheel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\source\\repos\\spinning_wheel\\spinning_wheel\\wwwroot\\",
+      "BasePath": "_content/spinning_wheel",
+      "RelativePath": "image/seg2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\seg2"
+    }
+  ]
 }

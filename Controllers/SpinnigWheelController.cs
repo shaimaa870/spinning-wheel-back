@@ -44,6 +44,7 @@ namespace spinning_wheel.Controllers
                         TextColor = segmentDto.TextColor,
                         Reward = segmentDto.Reward,
                         Color = segmentDto.Color,
+                        Image = segmentDto.Image,   
                     });
 
                 }
@@ -76,6 +77,7 @@ namespace spinning_wheel.Controllers
                         TextColor = segmentDto.TextColor,
                         Reward = segmentDto.Reward,
                         Color = segmentDto.Color,
+                        Image  =segmentDto.Image,  
                     });
 
                 }

@@ -6,15 +6,28 @@ namespace spinning_wheel.Core
     public class SpinningWheelRepo : ISpinningWheellRepo
     {
         private readonly AppDbContext _db;
+        private readonly IImage _imageService;
 
-        public SpinningWheelRepo(AppDbContext db)
+
+        public SpinningWheelRepo(AppDbContext db, IImage imageService)
         {
             _db = db;
+            _imageService = imageService;
         }
 
         public async Task<bool> CreateSpinningWheel(SpinningWheel spinningWheel)
         {
-            await _db.spinningWheels.AddAsync(spinningWheel);   
+            await _db.spinningWheels.AddAsync(spinningWheel);
+            if (spinningWheel.Segments.Count > 0) 
+            {
+                foreach (var seg in spinningWheel.Segments)
+                {
+                    if (!string.IsNullOrEmpty(seg.Image))
+
+                        seg.Image =await  _imageService.SaveImageAsync(seg.Label, seg.Image);
+
+                }
+            } 
             return Save();
         }
 
@@ -52,6 +65,15 @@ namespace spinning_wheel.Core
 
 
             wheel.Segments = spinningWheel.Segments;
+            if (wheel.Segments.Count > 0)
+            {
+                foreach (var seg in wheel.Segments)
+                {
+                    if(!string.IsNullOrEmpty(seg.Image))
+                    seg.Image = await _imageService.SaveImageAsync(seg.Label, seg.Image);
+
+                }
+            }
             _db.spinningWheels.Update(wheel);
             return Save();
         }
